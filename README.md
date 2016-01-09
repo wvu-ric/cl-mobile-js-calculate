@@ -1,4 +1,4 @@
-# Javascript Addition
+# Javascript Calculate
 
 ## Instructions
 Dividing your code in to separate modules makes it easier to read and prevents you from repeating your logic. Building a four function calculator is a great opportunity to practice creating code modules using javascript functions.
