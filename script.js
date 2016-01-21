@@ -16,16 +16,19 @@ var result = 0;
 // Call the appropriate function to correctly set the value of result
 
 if(op == "add"){
-	
+	result = num1+num2;
 
 }else if(op == "subtract"){
-	
+	result = num1 - num2;
+
 
 }else if(op == "multiply"){
-	
+	result = num1 * num2;
+
 
 }else if(op == "divide"){
-	
+	result = num1 / num2;
+
 
 }
 
