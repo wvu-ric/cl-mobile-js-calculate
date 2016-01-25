@@ -3,7 +3,7 @@
 ## Instructions
 Dividing your code in to separate modules makes it easier to read and prevents you from repeating your logic. Building a four function calculator is a great opportunity to practice creating code modules using javascript functions.
 
-This program prompts the user to enter two numbers, converts the responses to number objects and then prompts for an operation. The progam will call the function corresponding to the inputted operation, passing in both numbers as parameters. The operation function will return the resulting number which should then be displayed to the user in an alert window.
+This program prompts the user to enter two numbers, converts the responses to number objects and then prompts for an operation. The program will call the function corresponding to the inputted operation, passing in both numbers as parameters. The operation function will return the resulting number which should then be displayed to the user in an alert window.
 
 Submit the assignment by submitting a pull request. The steps to do that are as follows:
 
