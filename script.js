@@ -1,5 +1,16 @@
 // Create a function for each of the 4 basic math operations
-
+function add(num1,num2) {
+	    return (num1 + num2);
+}
+ function sub(num1,num2) {
+	     return (num1 - num2);
+}
+ function mutli(num1,num2) {
+     return (num1 * num2);
+}
+function div(num1,num2) {
+	    return (num1 / num2);
+}
 // Parameters: Number1, Number2
 // Returns: Result
 
@@ -16,16 +27,19 @@ var result = 0;
 // Call the appropriate function to correctly set the value of result
 
 if(op == "add"){
-	
+	var result = num1 + num2
 
-}else if(op == "subtract"){
-	
+}
+else if(op == "subtract"){
+	var result = num1 - num2
 
-}else if(op == "multiply"){
-	
+}
+else if(op == "multiply"){
+	var result = num1 * num2
 
-}else if(op == "divide"){
-	
+}
+else if(op == "divide"){
+	var result = num1 / num2
 
 }
 
