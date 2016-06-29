@@ -11,37 +11,24 @@ var num2 = Number(snum2);
 
 var op = prompt("Choose an operation? (add, subtract, multiply, or divide)");
 
-
-//functions
-
-function addNum(num1,num2) {
-	alert(num1 + num2);
-}
-
-function subNum(num1,num2) {
-	alert(num1 - num2);
-}
-
-function mulNum(num1,num2) {
-	alert(num1 * num2);
-}
-
-function divNum(num1,num2) {
-	alert(num1 / num2);
-}
+var result = 0;
 
 // Call the appropriate function to correctly set the value of result
 
 if(op == "add"){
-	addNum(num1,num2);
+	
 
 }else if(op == "subtract"){
-	subNum(num1,num2);
+	
 
 }else if(op == "multiply"){
-	mulNum(num1,num2);	
+	
 
 }else if(op == "divide"){
-	divNum(num1,num2);
+	
 
 }
+
+// Display result
+
+alert(result);
